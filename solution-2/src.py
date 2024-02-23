@@ -2,8 +2,8 @@ import pandas as pd
 
 if __name__ == "__main__":
 
-    df = pd.read_csv("input.csv")
-    query_df = pd.read_csv("query.csv")
+    df = pd.read_pickle("input.pickle")
+    query_df = pd.read_pickle("query.pickle")
 
     out = []
     for idx, row in query_df.iterrows():
