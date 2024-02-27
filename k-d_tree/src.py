@@ -1,13 +1,12 @@
-import pandas as pd
-import numpy as np
+import polars as pl
 from scipy import spatial
 
 
-df = pd.read_csv("input.csv")
-query_df = pd.read_csv("query.csv")
-
-tree = spatial.KDTree(df[["x","y"]])
+query_df = pl.read_csv("query.csv")
+df = pl.read_parquet("input.parquet")
+tree = spatial.KDTree(df.select("x","y"))
 out = []
-for idx, row in query_df.iterrows():
-    out.append({"dist": tree.query(row)[0], "weapon": df.loc[tree.query(row)[1], "weapon"]})
-pd.DataFrame(out).to_csv("out.csv", index=False)
+for row in query_df.iter_rows():
+    out.append({"dist": tree.query(row)[0], 
+                "weapon": df[int(tree.query(row)[1])]["weapon"].item()})
+pl.DataFrame(out).write_csv("out.csv")
