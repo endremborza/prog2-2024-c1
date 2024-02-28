@@ -1,8 +1,9 @@
-import polars as pl
-from scipy import spatial
+from sklearn.neighbors import KDTree
 import pandas as pd
+from joblib import dump
 
 df = pd.read_csv("input.csv")
-print(df.columns)
-tree = spatial.KDTree(df[["x","y"]])
+# Use sklearn because it can be imported faster
+tree = KDTree(df[["x","y"]],leaf_size=10)
+dump(tree,"sklearn_tree.joblib")
 df.to_parquet("input.parquet")
