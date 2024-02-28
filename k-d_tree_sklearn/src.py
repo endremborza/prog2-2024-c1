@@ -1,10 +1,12 @@
 import polars as pl
+import preproc
 from scipy import spatial
 
 
 query_df = pl.read_csv("query.csv")
 df = pl.read_parquet("input.parquet")
-tree = spatial.cKDTree(df[["x","y"]])
+#tree = spatial.KDTree(df[["x","y"]])
+tree = preproc.tree
 out = []
 for row in query_df.iter_rows():
     out.append({"dist": tree.query(row)[0], 
