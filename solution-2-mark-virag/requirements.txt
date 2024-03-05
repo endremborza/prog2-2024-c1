@@ -1,0 +1,4 @@
+typer
+polars
+numpy
+scipy
