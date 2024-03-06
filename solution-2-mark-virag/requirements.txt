@@ -1,3 +1,5 @@
 typer
-pandas
+polars
 numpy
+scipy
+pandas
