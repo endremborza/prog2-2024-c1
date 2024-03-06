@@ -18,4 +18,3 @@ out_df = pl.DataFrame({
 })
 
 out_df.write_csv("out.csv")
-
