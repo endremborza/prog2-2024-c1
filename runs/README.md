@@ -1,77 +1,77 @@
-# 2024-11-28
+# 2024-11-29
 
 ## Inputs: 1000, Queries 20
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| solution-flask-tree   |     8.16114  |       1.14445  |   0.012916 |
-| bori_aron_solution_2  |     1.95223  |       0.338211 |   0.331797 |
-| solution-1            |     8.16507  |       2e-06    |   0.351241 |
-| barab-szabi-2         |     2.89842  |       0.392443 |   0.387226 |
-| barab-szabi-1         |     0.621578 |       0.396061 |   0.387956 |
-| Bori_Aron_solution-1  |     0.606938 |       0.521995 |   0.520551 |
-| solution-2-mark-virag |     0.620543 |       0.40168  |   0.626829 |
+| solution-flask-tree   |     7.21199  |       1.06178  |   0.013732 |
+| bori_aron_solution_2  |     2.03107  |       0.335694 |   0.333324 |
+| solution-1            |     7.47846  |       1e-06    |   0.36052  |
+| barab-szabi-1         |     0.615225 |       0.396662 |   0.390921 |
+| barab-szabi-2         |     2.90129  |       0.393933 |   0.392066 |
+| Bori_Aron_solution-1  |     0.617033 |       0.513835 |   0.514293 |
+| solution-2-mark-virag |     0.624963 |       0.392256 |   0.635489 |
 
 ## Inputs: 10000, Queries 50
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| solution-flask-tree   |     0.616413 |       1.00925  |   0.012884 |
-| bori_aron_solution_2  |     0.6014   |       0.393521 |   0.382415 |
-| barab-szabi-2         |     0.616569 |       0.390458 |   0.387915 |
-| barab-szabi-1         |     0.624855 |       0.404439 |   0.392628 |
-| Bori_Aron_solution-1  |     0.605911 |       0.527944 |   0.519504 |
-| solution-2-mark-virag |     0.611966 |       0.404935 |   0.627195 |
+| solution-flask-tree   |     0.622828 |       1.00888  |   0.012083 |
+| bori_aron_solution_2  |     0.609907 |       0.391608 |   0.382213 |
+| barab-szabi-1         |     0.623157 |       0.403577 |   0.389214 |
+| barab-szabi-2         |     0.631189 |       0.38984  |   0.391699 |
+| Bori_Aron_solution-1  |     0.612381 |       0.532659 |   0.516768 |
+| solution-2-mark-virag |     0.622042 |       0.40955  |   0.628433 |
 
 ## Inputs: 50000, Queries 200
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| solution-flask-tree   |     0.615774 |       1.00871  |   0.01316  |
-| bori_aron_solution_2  |     0.601408 |       0.422965 |   0.387219 |
-| barab-szabi-2         |     0.616463 |       0.400684 |   0.399241 |
-| barab-szabi-1         |     0.623784 |       0.429487 |   0.422078 |
-| Bori_Aron_solution-1  |     0.607417 |       0.563675 |   0.523174 |
-| solution-2-mark-virag |     0.623705 |       0.422203 |   0.648559 |
+| solution-flask-tree   |     0.625122 |       1.00901  |   0.013498 |
+| bori_aron_solution_2  |     0.614246 |       0.413856 |   0.385775 |
+| barab-szabi-2         |     0.619778 |       0.404468 |   0.401179 |
+| barab-szabi-1         |     0.622073 |       0.423554 |   0.429359 |
+| Bori_Aron_solution-1  |     0.617693 |       0.576912 |   0.52369  |
+| solution-2-mark-virag |     0.621468 |       0.426323 |   0.644838 |
 
 ## Inputs: 250000, Queries 500
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| solution-flask-tree   |     0.616135 |       2.01186  |   0.016451 |
-| bori_aron_solution_2  |     0.604969 |       0.528064 |   0.392836 |
-| barab-szabi-2         |     0.627508 |       0.462849 |   0.431061 |
-| barab-szabi-1         |     0.615617 |       0.534729 |   0.528216 |
-| Bori_Aron_solution-1  |     0.612468 |       0.739089 |   0.534698 |
-| solution-2-mark-virag |     0.614113 |       0.536633 |   0.728404 |
+| solution-flask-tree   |     0.627718 |       2.01175  |   0.015377 |
+| bori_aron_solution_2  |     0.609701 |       0.529594 |   0.392063 |
+| barab-szabi-2         |     0.631469 |       0.463317 |   0.435556 |
+| barab-szabi-1         |     0.621553 |       0.539954 |   0.526862 |
+| Bori_Aron_solution-1  |     0.610782 |       0.7442   |   0.536943 |
+| solution-2-mark-virag |     0.659815 |       0.539107 |   0.734557 |
 
 ## Inputs: 1000000, Queries 1000
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| solution-flask-tree   |     0.618767 |       2.01184  |   0.018423 |
-| bori_aron_solution_2  |     0.606774 |       0.96622  |   0.405253 |
-| barab-szabi-2         |     0.617165 |       0.71737  |   0.4611   |
-| Bori_Aron_solution-1  |     0.649558 |       1.42344  |   0.57637  |
-| barab-szabi-1         |     0.626879 |       0.872031 |   0.933325 |
-| solution-2-mark-virag |     0.621728 |       0.873225 |   1.08185  |
+| solution-flask-tree   |     0.626074 |       2.01216  |   0.019569 |
+| bori_aron_solution_2  |     0.607941 |       0.975546 |   0.406993 |
+| barab-szabi-2         |     0.623533 |       0.719569 |   0.466969 |
+| Bori_Aron_solution-1  |     0.644203 |       1.38934  |   0.561895 |
+| barab-szabi-1         |     0.621219 |       0.871284 |   0.912181 |
+| solution-2-mark-virag |     0.622819 |       0.859864 |   1.06836  |
 
 ## Inputs: 10000000, Queries 1000
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| solution-flask-tree   |     0.634479 |       14.0464  |   0.020347 |
-| bori_aron_solution_2  |     0.618328 |        7.85039 |   0.523401 |
-| barab-szabi-2         |     0.630067 |        5.33818 |   0.737451 |
-| Bori_Aron_solution-1  |     0.607453 |       10.6     |   0.809918 |
-| barab-szabi-1         |     0.620248 |        4.92798 |   6.44539  |
-| solution-2-mark-virag |     0.625611 |        4.88311 |   6.84258  |
+| solution-flask-tree   |     0.616807 |       14.0482  |   0.020907 |
+| bori_aron_solution_2  |     0.61127  |        7.83087 |   0.519578 |
+| barab-szabi-2         |     0.614139 |        5.43223 |   0.736597 |
+| Bori_Aron_solution-1  |     0.613286 |       10.9062  |   0.810452 |
+| barab-szabi-1         |     0.620608 |        4.9018  |   6.67496  |
+| solution-2-mark-virag |     0.632375 |        4.88782 |   7.0409   |
 
 ## Inputs: 100000000, Queries 10000
 
 | solution             |   setup_time |   preproc_time |   run_time |
 |:---------------------|-------------:|---------------:|-----------:|
-| solution-flask-tree  |     0.620559 |       174.528  |   0.082255 |
-| barab-szabi-2        |     0.997662 |        70.9412 |   3.17726  |
-| bori_aron_solution_2 |     0.611058 |       111.83   |  11.2567   |
-| Bori_Aron_solution-1 |     0.770972 |       157.928  |  14.9268   |
+| solution-flask-tree  |     0.620923 |        182.552 |    0.08513 |
+| barab-szabi-2        |     0.893411 |         75.06  |    3.6293  |
+| bori_aron_solution_2 |     0.6087   |        115.503 |   10.4067  |
+| Bori_Aron_solution-1 |     0.720757 |        153.706 |   18.3495  |
